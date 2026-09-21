@@ -1,0 +1,95 @@
+/* ============================= */
+/*      SOCIAL MEDIA LINKS       */
+/* ============================= */
+
+.social-links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+/* Individual social item */
+
+.social-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Circular icon */
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+    background-color: #042c00;
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 24px;
+
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+
+.social-icon:hover {
+    background-color: #333;
+    color: white;
+    transform: translateY(-5px);
+}
+
+/* Text below icon */
+
+.social-item span {
+    margin-top: 8px;
+
+    font-size: 14px;
+    font-weight: 500;
+
+    color: #fbfcfc;
+}
+
+/* Mobile responsive */
+
+@media (max-width: 600px) {
+
+    .social-links {
+        gap: 15px;
+    }
+
+    .social-icon {
+        width: 45px;
+        height: 45px;
+        font-size: 21px;
+    }
+
+    .social-item span {
+        font-size: 12px;
+    }
+}
+
+
+/* LinkedIn name hover effect */
+h3.text-lg.font-bold a {
+    color: inherit !important;
+    text-decoration: none !important;
+    transition: all 0.3s ease !important;
+}
+
+h3.text-lg.font-bold a:hover {
+    color: #a4cf09 !important;
+    text-decoration: underline !important;
+}
