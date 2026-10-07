@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>MIC MITRA - MicMitra Hub</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500;700;900&display=swap" rel="stylesheet"/>
+<script>
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        primary: "#99d8b1",
+        "background-light": "#f6f8f7",
+        "background-dark": "#141e18"
+      },
+      fontFamily: { display: "Noto Serif" },
+      borderRadius: { DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px" }
+    }
+  }
+};
+</script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-300">
+
+<div class="relative flex min-h-screen w-full flex-col">
+
+<!-- NAVBAR -->
+<header class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-lg border-b border-gray-200 dark:border-gray-800">
+  <div class="container mx-auto px-6 py-4 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <img src="assets/logo.png" alt="MicMitra logo" class="h-8 w-8"/>
+      <h2 class="text-xl font-bold text-gray-900 dark:text-white">MIC MITRA</h2>
+    </div>
+    <nav class="hidden md:flex items-center gap-8">
+      <a href="index.html" class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors">Home</a>
+     
+    </nav>
+  </div>
+</header>
+
+<main class="flex-grow">
+
+  <!-- HERO -->
+  <section class="relative h-[50vh] min-h-[360px] flex items-center justify-center text-center text-white bg-cover bg-center" style='background-image: url("assets/IMAGE.jpg");'>
+    <div class="absolute inset-0 bg-black/50"></div>
+    <div class="relative z-10 flex flex-col items-center gap-4 px-6">
+      <h1 class="text-4xl md:text-5xl font-black tracking-tight">MicMitra Hub</h1>
+      <p class="max-w-3xl text-base md:text-lg text-white/90">
+        Explore our programs, activities, and grow together with peers.
+      </p>
+    </div>
+  </section>
+<br><br>
+<br><br><br>
+  <!-- START SPEAKING MINI CHALLENGE -->
+<!-- START SPEAKING MINI CHALLENGE -->
+<section id="mini-challenge" class="relative py-4 bg-background-light dark:bg-background-dark">
+  <div class="container mx-auto px-6 text-center max-w-3xl">
+    <h2 class="text-3xl font-bold tracking-tight sm:text-4xl mb-2 text-gray-900 dark:text-white">
+      Start Speaking Challenge
+    </h2>
+    <p class="text-lg mb-2 text-gray-600 dark:text-gray-400">
+      Record a short presentation, share it with peers, and grow your confidence by doing it together.
+    </p>
+
+    <!-- Upload Video Button -->
+    <a href="https://drive.google.com/drive/folders/10CW2OzrUL9MvLlicp9PE36yED4F86plv?usp=sharing" target="_blank"
+       class="inline-block rounded-lg bg-primary px-6 py-2 text-white font-bold hover:bg-primary/90 transition-colors">
+      Upload Your Video
+    </a>
+  </div>
+<br> <br> <br> <br>
+  <section id="mini-challenge" class="relative py-4 bg-background-light dark:bg-background-dark">
+  <div class="container mx-auto px-6 text-center max-w-3xl">
+    <h2 class="text-3xl font-bold tracking-tight sm:text-4xl mb-2 text-gray-900 dark:text-white">
+     Session reports and Resources
+    </h2>
+    <p class="text-lg mb-2 text-gray-600 dark:text-gray-400">
+      Check out session reports, resources, and materials from our past sessions to stay updated and informed.
+    </p>
+
+    <!-- Upload Video Button -->
+   <a href="https://drive.google.com/drive/folders/1PcGP4BD11r8HWyLHI02y43LJtIGRehuV?usp=sharing" target="_blank"
+  class="inline-block rounded-lg bg-primary px-6 py-2 text-white font-bold">
+     CHECK OUT ▼
+   </a>
+ </div>
+
+</section>
+
+
+
+
+</main>
+
+<!-- FOOTER -->
+<footer class="bg-background-dark text-gray-400">
+  <div class="container mx-auto px-6 py-8 text-center">
+    <p>© 2025 MIC MITRA. All rights reserved.</p>
+  </div>
+</footer>
+
+</div>
+</body>
+</html>
